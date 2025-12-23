@@ -8068,6 +8068,53 @@
 					"response": []
 				},
 				{
+					"name": "평택하이센트",
+					"id": "3077734-55b9a9b6-7c49-439b-914b-41d5014ee046",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "DT=5t2kWxtScAAzDBx5vw99potCjvKR9gPnOPFfpLRYRxh",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"board\",\r\n    \"type\": \"history\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"1E012024074c75a748551155aad7ad5a87a18aed91\",\r\n    \"userkey\": \"202510241340162211110\",\r\n    \"page\": \"1\",\r\n    \"count\": \"10\",\r\n    \"head1\": \"조회\",\r\n    \"head2\": \"all\"\r\n  }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://223.171.132.63:9095/api/cmf",
+							"protocol": "https",
+							"host": [
+								"223",
+								"171",
+								"132",
+								"63"
+							],
+							"port": "9095",
+							"path": [
+								"api",
+								"cmf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "(개발) 코맥스성남연구소 CMF 마스터정보",
 					"id": "3077734-f8df551c-fbc6-4ca6-8764-29e372027305",
 					"protocolProfileBehavior": {
