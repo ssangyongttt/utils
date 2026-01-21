@@ -3567,7 +3567,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "DT=testcommaxdanjitoken7",
+								"value": "DT=5t2kWxtScAAzDBx5vw99potCjvKR9gPnOPFfpLRYRxh",
 								"type": "text"
 							},
 							{
@@ -3586,13 +3586,13 @@
 							}
 						},
 						"url": {
-							"raw": "https://223.171.43.60:9095/api/cmf",
+							"raw": "https://223.171.132.63:9095/api/cmf",
 							"protocol": "https",
 							"host": [
 								"223",
 								"171",
-								"43",
-								"60"
+								"132",
+								"63"
 							],
 							"port": "9095",
 							"path": [
