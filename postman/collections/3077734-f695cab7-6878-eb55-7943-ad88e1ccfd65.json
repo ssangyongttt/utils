@@ -3557,8 +3557,55 @@
 			"name": "eLife (CMF)",
 			"item": [
 				{
-					"name": "대림 월패드 인증 CMF",
+					"name": "eLife 월패드 인증 CMF",
 					"id": "3077734-ea66fbb8-c6f1-4699-9b4f-005a2a252072",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "DT=testcommaxdanjitoken7",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"user\",\r\n    \"type\": \"auth_popup\",\r\n    \"command\": \"control_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"1A06202010582a7361d99b03cf195775553060cd34\",\r\n    \"userkey\": \"202601211039541427973\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://223.171.43.60:9095/api/cmf",
+							"protocol": "https",
+							"host": [
+								"223",
+								"171",
+								"43",
+								"60"
+							],
+							"port": "9095",
+							"path": [
+								"api",
+								"cmf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ACRO 월패드 인증 CMF",
+					"id": "3077734-bb77b268-b896-496d-959c-2e972abd4843",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
