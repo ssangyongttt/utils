@@ -7974,6 +7974,53 @@
 					"response": []
 				},
 				{
+					"name": "시티광교 CMF Copy",
+					"id": "3077734-ad92d6ef-34e0-4bf0-a745-8b44815ede2d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "DT=xsKdhumaySqvq0NiyUUbTQ6D5eZx0xjeFqUbgfS5d2o",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"control\",\r\n    \"type\": \"smartdoor\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"eyJzaXRlSWQiOjE1NTksImRvbmciOiIwMTA1IiwiaG8iOiIwMzAyIn0=\",\r\n    \"userkey\": \"202501240604378701983\",\r\n    \"uid\": \"\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://211.52.116.219:9095/api/cmf",
+							"protocol": "https",
+							"host": [
+								"211",
+								"52",
+								"116",
+								"219"
+							],
+							"port": "9095",
+							"path": [
+								"api",
+								"cmf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "아크로베스티뉴 CMF",
 					"id": "3077734-875b9378-1e5f-4619-8ad1-beb4e2720c67",
 					"protocolProfileBehavior": {
