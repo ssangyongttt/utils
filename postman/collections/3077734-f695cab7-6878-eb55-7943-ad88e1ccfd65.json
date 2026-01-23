@@ -7995,7 +7995,54 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"ems\",\r\n    \"type\": \"year_graph\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"eyJzaXRlSWQiOjE1MTMsImRvbmciOiIwMTA5IiwiaG8iOiIyMjAxIn0=\",\r\n    \"userkey\": \"202412111436566697630\",\r\n    \"type\": \"elec\",  //검침종류\r\n    \"year\": \"2026\"\r\n  }\r\n}",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"ems\",\r\n    \"type\": \"year_graph\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"eyJzaXRlSWQiOjE1MTMsImRvbmciOiIwMTA5IiwiaG8iOiIyMjAxIn0=\",\r\n    \"userkey\": \"202412111436566697630\",\r\n    \"type\": \"elec\",\r\n    \"year\": \"2026\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://210.180.54.146:9095/api/cmf",
+							"protocol": "https",
+							"host": [
+								"210",
+								"180",
+								"54",
+								"146"
+							],
+							"port": "9095",
+							"path": [
+								"api",
+								"cmf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "안성그랑루체 CMF Copy",
+					"id": "3077734-7bf70f09-bf49-4bab-b128-e3953b737c62",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "DT=ML7DvxZy6xeuLH68VfWrqu0GzpOm3F889CK4qvy6mig",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"ems\",\r\n    \"type\": \"year_graph\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"eyJzaXRlSWQiOjE1MTMsImRvbmciOiIwMTA5IiwiaG8iOiIyMjAxIn0=\",\r\n    \"userkey\": \"202412111436566697630\",\r\n    \"type\": \"elec\",\r\n    \"year\": \"2026\"\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
