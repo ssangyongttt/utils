@@ -8042,7 +8042,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"ems\",\r\n    \"type\": \"current_use\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"eyJzaXRlSWQiOjE1MTMsImRvbmciOiIwMTA5IiwiaG8iOiIyMjAxIn0=\",\r\n    \"userkey\": \"202412111436566697630\",\r\n    \"year\": \"2026\",\r\n    \"month\": \"01\"\r\n  }\r\n}\r\n",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"ems\",\r\n    \"type\": \"month_table\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"eyJzaXRlSWQiOjE1MTMsImRvbmciOiIwMTA5IiwiaG8iOiIyMjAxIn0=\",\r\n    \"userkey\": \"202412111436566697630\",\r\n    \"type\": \"elec\",\r\n    \"year\": \"2026\",\r\n    \"month\": \"01\"\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
