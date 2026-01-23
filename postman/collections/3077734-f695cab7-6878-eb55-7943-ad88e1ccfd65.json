@@ -7995,7 +7995,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"control\",\r\n    \"type\": \"smartdoor\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"eyJzaXRlSWQiOjE1NTksImRvbmciOiIwMTA1IiwiaG8iOiIwMzAyIn0=\",\r\n    \"userkey\": \"202501240604378701983\",\r\n    \"uid\": \"\"\r\n  }\r\n}",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"ems\",\r\n    \"type\": \"year_graph\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"eyJzaXRlSWQiOjE1MTMsImRvbmciOiIwMTA5IiwiaG8iOiIyMjAxIn0=\",\r\n    \"userkey\": \"202412111436566697630\",\r\n    \"type\": \"elec\",  //검침종류\r\n    \"year\": \"2026\"\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
