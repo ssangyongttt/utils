@@ -7974,7 +7974,7 @@
 					"response": []
 				},
 				{
-					"name": "시티광교 CMF Copy",
+					"name": "안성그랑루체 CMF",
 					"id": "3077734-ad92d6ef-34e0-4bf0-a745-8b44815ede2d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -7984,7 +7984,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "DT=xsKdhumaySqvq0NiyUUbTQ6D5eZx0xjeFqUbgfS5d2o",
+								"value": "DT=ML7DvxZy6xeuLH68VfWrqu0GzpOm3F889CK4qvy6mig",
 								"type": "text"
 							},
 							{
@@ -8003,13 +8003,13 @@
 							}
 						},
 						"url": {
-							"raw": "https://211.52.116.219:9095/api/cmf",
+							"raw": "https://210.180.54.146:9095/api/cmf",
 							"protocol": "https",
 							"host": [
-								"211",
-								"52",
-								"116",
-								"219"
+								"210",
+								"180",
+								"54",
+								"146"
 							],
 							"port": "9095",
 							"path": [
