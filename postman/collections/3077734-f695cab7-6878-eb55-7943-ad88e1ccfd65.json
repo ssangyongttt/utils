@@ -8162,6 +8162,53 @@
 					"response": []
 				},
 				{
+					"name": "안성그랑루체 CMF (월간사용량)",
+					"id": "3077734-e4f2fae2-40f9-4fe1-94c8-4253044dc6ed",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "DT=ML7DvxZy6xeuLH68VfWrqu0GzpOm3F889CK4qvy6mig",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"ems\",\r\n    \"type\": \"time_table\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"eyJzaXRlSWQiOjE1MTMsImRvbmciOiIwMTA5IiwiaG8iOiIyMjAxIn0=\",\r\n    \"userkey\": \"202412111436566697630\",\r\n    \"date\":\" yyyy-MM-dd hh:mm:ss\",\r\n    \"type\": \"elec\"\r\n  }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://210.180.54.146:9095/api/cmf",
+							"protocol": "https",
+							"host": [
+								"210",
+								"180",
+								"54",
+								"146"
+							],
+							"port": "9095",
+							"path": [
+								"api",
+								"cmf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "아크로베스티뉴 CMF",
 					"id": "3077734-875b9378-1e5f-4619-8ad1-beb4e2720c67",
 					"protocolProfileBehavior": {
