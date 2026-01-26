@@ -7974,7 +7974,7 @@
 					"response": []
 				},
 				{
-					"name": "안성그랑루체 CMF",
+					"name": "안성그랑루체 CMF (당월사용량)",
 					"id": "3077734-ad92d6ef-34e0-4bf0-a745-8b44815ede2d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -8021,7 +8021,7 @@
 					"response": []
 				},
 				{
-					"name": "안성그랑루체 CMF Copy",
+					"name": "안성그랑루체 CMF (당월사용량)",
 					"id": "3077734-a2a63df8-f568-4bda-8dbf-f74ab82b434f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
