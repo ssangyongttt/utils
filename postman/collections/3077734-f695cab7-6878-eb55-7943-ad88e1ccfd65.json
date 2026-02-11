@@ -3604,6 +3604,53 @@
 					"response": []
 				},
 				{
+					"name": "eLife 월패드 인증 CMF Copy",
+					"id": "3077734-06ede40b-1048-4a2b-908e-4c3b3d4f5223",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "DT=5t2kWxtScAAzDBx5vw99potCjvKR9gPnOPFfpLRYRxh",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"user\",\r\n    \"type\": \"auth_popup\",\r\n    \"command\": \"control_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"1E012024074c75a748551155aad7ad5a87a18aed91\",\r\n    \"userkey\": \"202601281530487508709\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://223.171.132.63:9095/api/cmf",
+							"protocol": "https",
+							"host": [
+								"223",
+								"171",
+								"132",
+								"63"
+							],
+							"port": "9095",
+							"path": [
+								"api",
+								"cmf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "ACRO 월패드 인증 CMF",
 					"id": "3077734-bb77b268-b896-496d-959c-2e972abd4843",
 					"protocolProfileBehavior": {
