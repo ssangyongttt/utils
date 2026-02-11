@@ -3604,7 +3604,7 @@
 					"response": []
 				},
 				{
-					"name": "eLife 월패드 인증 CMF Copy",
+					"name": "eLife 월패드 인증 CMF (개발)",
 					"id": "3077734-06ede40b-1048-4a2b-908e-4c3b3d4f5223",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
