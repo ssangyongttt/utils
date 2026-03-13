@@ -3578,7 +3578,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"user\",\r\n    \"type\": \"auth_popup\",\r\n    \"command\": \"control_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"1E012024074c75a748551155aad7ad5a87a18aed91\",\r\n    \"userkey\": \"202601281530487508709\"\r\n  }\r\n}",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"user\",\r\n    \"type\": \"auth_popup\",\r\n    \"command\": \"control_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"1E23202402578c0120386226fe63386c5e499b21ce\",\r\n    \"userkey\": \"202603131143509903559\"\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
