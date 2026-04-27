@@ -3766,7 +3766,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"master\",\r\n    \"type\": \"house\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"dong\": \"0102\"\r\n  }\r\n}\r\n",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"master\",\r\n    \"type\": \"dong\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"dong\": \"0102\"\r\n  }\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
