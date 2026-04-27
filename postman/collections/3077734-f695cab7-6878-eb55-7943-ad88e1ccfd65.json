@@ -3625,7 +3625,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"user\",\r\n    \"type\": \"auth_popup\",\r\n    \"command\": \"control_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"LxmuP-6RH1fPqQoeRVWSyXfdRGL9_Ov9pvC2Du1gKw4=\",\r\n    \"userkey\": \"202604151545265705575\"\r\n  }\r\n}",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"user\",\r\n    \"type\": \"auth_popup\",\r\n    \"command\": \"control_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"1A07202101dc7684f119be677d8c2796e5e4c0d8e6\",\r\n    \"userkey\": \"202601211154490137987\"\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
