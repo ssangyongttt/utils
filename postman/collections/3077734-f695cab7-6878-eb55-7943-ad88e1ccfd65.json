@@ -3698,6 +3698,53 @@
 					"response": []
 				},
 				{
+					"name": "eLife 기초데이터2",
+					"id": "3077734-87f15859-fae3-444e-94d0-d33070b418b3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "DT=testcommaxdanjitoken7",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"user\",\r\n    \"type\": \"auth_popup\",\r\n    \"command\": \"control_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"1A06202010582a7361d99b03cf195775553060cd34\",\r\n    \"userkey\": \"202601211039541427973\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://223.171.43.60:9095/api/cmf",
+							"protocol": "https",
+							"host": [
+								"223",
+								"171",
+								"43",
+								"60"
+							],
+							"port": "9095",
+							"path": [
+								"api",
+								"cmf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "eLife 기초데이터",
 					"id": "3077734-7cb181e5-7fb3-4070-8eb2-e338b37681fb",
 					"protocolProfileBehavior": {
