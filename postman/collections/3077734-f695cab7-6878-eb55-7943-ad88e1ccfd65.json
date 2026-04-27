@@ -3708,7 +3708,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "DT=testcommaxdanjitoken7",
+								"value": "DT=1asdKjwBz3UxR0GYExv38RpELVndZo8TYZ1P5KdXTqe",
 								"type": "text"
 							},
 							{
@@ -3719,7 +3719,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"user\",\r\n    \"type\": \"auth_popup\",\r\n    \"command\": \"control_request\"\r\n  },\r\n  \"data\": {\r\n    \"roomkey\": \"1A06202010582a7361d99b03cf195775553060cd34\",\r\n    \"userkey\": \"202601211039541427973\"\r\n  }\r\n}",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"master\",\r\n    \"type\": \"complex\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {}\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3727,13 +3727,13 @@
 							}
 						},
 						"url": {
-							"raw": "https://223.171.43.60:9095/api/cmf",
+							"raw": "https://223.171.71.67:9095/api/cmf",
 							"protocol": "https",
 							"host": [
 								"223",
 								"171",
-								"43",
-								"60"
+								"71",
+								"67"
 							],
 							"port": "9095",
 							"path": [
