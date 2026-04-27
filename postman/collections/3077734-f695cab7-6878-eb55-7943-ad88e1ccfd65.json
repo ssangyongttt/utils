@@ -3708,7 +3708,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "DT=1asdKjwBz3UxR0GYExv38RpELVndZo8TYZ1P5KdXTqe",
+								"value": "DT=JZhd441eXE0KJpQjBebGgyaC1sEDxgibGhmZwkN1EMw",
 								"type": "text"
 							},
 							{
@@ -3719,7 +3719,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"master\",\r\n    \"type\": \"complex\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {}\r\n}\r\n",
+							"raw": "{\r\n  \"header\": {\r\n    \"category\": \"master\",\r\n    \"type\": \"dong\",\r\n    \"command\": \"query_request\"\r\n  },\r\n  \"data\": {\r\n    \"dong\": \"0102\"\r\n  }\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
